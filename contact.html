@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                  <a href="index1.html"> <img src="logo_nareolle.gif"  width="125px" alt="logo"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index1.html">Accueil</a></li>
+                        <li><a href="">Produits</a></li>
+                        <li><a href="">A Propos</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="login.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="shopping.html"><ion-icon name="cart-outline"></ion-icon></a>
+                <ion-icon name="menu-outline" class="menu-icon" onclick="menutoggle()"></ion-icon> 
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>  WELCOME <br>TO<br> ANE-SHOP</h1>
+                    <P>Entrer dans l'univers du chick et du glamour . Entrer dans l'univers du chick et du glamour . Entrer dans l'univers du chick et du glamour</P>
+                    <a href=""class="btn">Explore here&#10139;</a>
+                </div>
+                <div class="col-2">
+                    <img src="IMG-20220904-WA0020.jpg" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------cart items details---->
+    <section class="testy" id="t">
+        <div class="small-container">
+            <center><h2 class="title">Contact Us Now!</h2></center>
+            <div class="row">
+                <div class="col-3" id="col3"> 
+                    <p>get in touch</p>
+                    <h2>Write us a message now</h2>
+                    <form>
+                        <label>Your Name <span>*</span></label>
+                        <input type="text" required>
+                        <label>Your Phone <span>*</span></label>
+                        <input type="text"required>
+                        <label>Your Email <span>*</span></label>
+                        <input type="text"required>
+                        <label>Your Subject <span>*</span></label>
+                        <input type="text"required>
+                        <label>Your message</label>
+                        <textarea name="message" id="meco" cols="30" rows="10" placeholder="write your message here"></textarea>
+                       <br> <button>send</button>
+                    </form>
+                </div>
+                <div class="col-3" id="col3">
+                    <img src="rock.png"  id="p" alt="">
+                    <h2>Call us now</h2>
+                    <p>
+                        +123 456-789-1120 <br>
+                        +522 672-452-1120
+                    </p>
+                    <img src="rock.png" id="p" alt="">
+                    <h2>Email</h2>
+                    <p>
+                        <a href="mich.com">michelle@gmail.com</a> <br> <a href="mich.com">michelle@gmail.com</a>
+                    </p>
+                    <img src="rock.png" id="p" alt="">
+                    <h2>Our Adress</h2>
+                    <p>
+                        KA-62/1, Travel AgenCentral Terminal, New York. <br>
+                        +522 672-452-1120
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------shipping---->
+    <section class="settle">
+        <center>
+            <P> NEWSLETTER </P>
+            <p>Subscribe to our newsletter and get <span>10%</span>off your first purchase</P><br>
+            <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+                <input name="EMAIL" placeholder="Your email address" required="" type="email">
+                <button class="btn">Subscribe</button>
+            </form>
+        </center>    
+    </section>
+    <!---------banner sec-->
+    <!-- <section class="banner-sec">
+
+        <div class="small-container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="rock.png" alt="rock">
+                </div>
+                <p>FREE SHIPPING <br>Orders Over 1000 FCFA</p>
+                <div class="col-6">
+                    <img src="rev.png" alt="rock">
+                </div>
+                <p>FREE RETURN<br>Within 30 days return</p>
+                <div class="col-6">
+                    <img src="lock.png" alt="rock">
+                </div>
+                <p>SECURE PAYMENTS <br>100% secure payments</p>
+                <div class="col-6">
+                    <img src="yim.png" alt="rock">
+                </div>
+                <p>BEST PRICE <br>Guaranteed price</p>
+            </div>
+        </div>
+    </section> -->
+    <section class="banner-sec">
+        <div class="small-container" id="sec">
+            <div class="row">
+                
+                <div class="col-6">
+                    <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+                <p>FREE SHIPPING <br>Orders Over 1000 FCFA</p>
+                <div class="col-6">
+                    <ion-icon name="reload-outline"></ion-icon>
+                </div>
+                <p>FREE RETURN<br>Within 30 days return</p>
+                <div class="col-6">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+                <p>SECURE PAYMENTS <br>100% secure payments</p>
+                <div class="col-6">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                <p>BEST PRICE <br>Guaranteed price</p>
+        </div>
+        </div>
+    </section>
+    <!--------footer------>
+   <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+                    <div class="app-logo">
+                        <img src="lock.png" alt="">
+                        <img src="lock.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo_nareolle.gif" alt="">
+                    <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliation</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>JYouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2023 - ANE-SHOP</p>
+        </div>
+    </section>
+   
+    <!---------js forbtoggle menu------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle()
+        {
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
